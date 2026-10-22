@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal 0; 
+    box-sizing: border-box;
+}
+body{
+    background-color: #040e39;
+}
+header{
+    background-color: #333339;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.brand{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.brand:visited{
+    color: #663399;
+}
+.brand:hover{
+    color: #ddd;
+}
+li #c{
+    background-color: #663399;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    margin-left: 20px;
+}
+
+li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+li a:hover{
+    color: #ddd;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+@media (max-width: 600px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-container {
+        padding: 10px;
+    }
+    form input[type="text"],
+    form textarea {
+        padding: 8px;
+    }
+    form button {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 300px) {
+    .brand {
+        font-size: 20px;
+    }
+    form input[type="text"],
+    form textarea {
+        padding: 6px;
+    }
+    form button {
+        padding: 6px 12px;
+    }
+}
+
+@media (max-width: 200px) {
+    .brand {
+        font-size: 16px;
+    }
+    form input[type="text"],
+    form textarea {
+        padding: 4px;
+    }
+    form button {
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width: 700px) {
+    .main-container {
+        padding: 15px;
+    }
+    form input[type="text"],
+    form input[type="password"],
+    form input[type="email"],
+    form textarea {
+        padding: 9px;
+    }
+    form button {
+        padding: 9px 18px;
+    }
+}
+.main-contain{
+    height: 380px;
+    width: 630px;
+    background:#fff;
+    margin: 20px auto;
+    padding: 20px; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.main-contain button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.main-contain button:hover {
+    background-color: #555;
+}
+.main-contain h5{
+    margin-top: 20px;
+    color: #333;
+    font-size: 18px;
+}
